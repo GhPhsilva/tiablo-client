@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find c:UsersPedroDocumentstiabloclient -name *.lua -type f)",
+      "Bash(find c:UsersPedroDocumentstiabloclient -maxdepth 2 -name *.otml -o -name *.otmod -o -name *.xml)",
+      "Bash(find c:UsersPedroDocumentstiabloclientdatamodules -name *.otmod)"
+    ]
+  }
+}

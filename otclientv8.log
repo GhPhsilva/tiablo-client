@@ -1,0 +1,17 @@
+GPU ANGLE (NVIDIA GeForce GTX 1650 Direct3D11 vs_5_0 ps_5_0) (Google Inc.)
+OpenGL OpenGL ES 3.0.0 (ANGLE 2.1.0.54a3d7cbcadb)
+[Atlas] Texture size is: 4096x4096 (max: 16384x16384)
+Found work dir at 'C:/Users/gabri/OneDrive/Área de Trabalho/Arquivos 13.20/clients/otclient/'
+== application started at Mar 05 2024 21:08:46
+Fazendo Tibia 3.1 rev 225 (dev) made by otclient.net built on Jun  7 2022 for arch x86
+Exiting application..
+GPU NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2 (NVIDIA Corporation)
+OpenGL 4.6.0 NVIDIA 581.29
+[Atlas] Texture size is: 4096x4096 (max: 32768x32768)
+Found work dir at 'C:/Users/Pedro/Documents/tiablo/client/'
+== application started at Mar 24 2026 09:33:34
+Fazendo Tibia 3.1 rev 225 (dev) made by otclient.net built on Jun  7 2022 for arch x86
+Connecting to: 127.0.0.1:7171
+Login to 127.0.0.1:7172
+ERROR: Unable to send extended opcode 201, extended opcodes are not enabled on this server.
+Exiting application..
