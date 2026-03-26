@@ -33,9 +33,10 @@ InventorySlotFeet = 8
 InventorySlotFinger = 9
 InventorySlotAmmo = 10
 InventorySlotPurse = 11
+InventorySlotBelt = 12
 
 InventorySlotFirst = 1
-InventorySlotLast = 10
+InventorySlotLast = 12
 
 function Player:isPartyLeader()
   local shield = self:getShield()

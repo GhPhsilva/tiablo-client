@@ -72,6 +72,13 @@ AmmoSlot < InventoryItem
   $on:
     image-source: /images/game/slots/ring2
 
+BeltSlot < InventoryItem
+  id: slot12
+  image-source: /images/game/slots/belt
+  &position: {x=65535, y=12, z=0}
+  $on:
+    image-source: /images/game/slots/belt
+
 PurseButton < UIButton
   id: purseButton
   size: 34 12
@@ -129,7 +136,7 @@ MountButton < CombatBox
 
 InventoryWindow < HeadlessMiniWindow
   icon: /images/topbuttons/inventory
-  height: 178
+  height: 215
   id: inventoryWindow
   @onClose: modules.game_inventory.onMiniWindowClose()
   &save: true
@@ -180,6 +187,11 @@ InventoryWindow < HeadlessMiniWindow
         margin-top: 3
 
       BodySlot
+        anchors.top: prev.bottom
+        anchors.horizontalCenter: prev.horizontalCenter
+        margin-top: 3
+
+      BeltSlot
         anchors.top: prev.bottom
         anchors.horizontalCenter: prev.horizontalCenter
         margin-top: 3

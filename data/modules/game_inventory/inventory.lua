@@ -27,7 +27,8 @@ InventorySlotStyles = {
   [InventorySlotLeg] = "LegSlot",
   [InventorySlotFeet] = "FeetSlot",
   [InventorySlotFinger] = "FingerSlot",
-  [InventorySlotAmmo] = "AmmoSlot"
+  [InventorySlotAmmo] = "AmmoSlot",
+  [InventorySlotBelt] = "BeltSlot"
 }
 
 inventoryWindow = nil
@@ -227,7 +228,7 @@ end
 
 -- hooked events
 function onInventoryChange(player, slot, item, oldItem)
-  if slot > InventorySlotPurse then return end
+  if slot > InventorySlotLast then return end
 
   if slot == InventorySlotPurse then
     if g_game.getFeature(GamePurseSlot) then
