@@ -15,3 +15,201 @@ Connecting to: 127.0.0.1:7171
 Login to 127.0.0.1:7172
 ERROR: Unable to send extended opcode 201, extended opcodes are not enabled on this server.
 Exiting application..
+GPU NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2 (NVIDIA Corporation)
+OpenGL 4.6.0 NVIDIA 581.29
+[Atlas] Texture size is: 4096x4096 (max: 32768x32768)
+Found work dir at 'C:/Users/Pedro/Documents/tiablo/client/'
+== application started at Mar 24 2026 22:44:26
+Fazendo Tibia 3.1 rev 225 (dev) made by otclient.net built on Jun  7 2022 for arch x86
+Connecting to: 127.0.0.1:7171
+Login to 127.0.0.1:7172
+ERROR: Unable to send extended opcode 201, extended opcodes are not enabled on this server.
+Login to 127.0.0.1:7172
+Connecting to: 127.0.0.1:7171
+Connecting to: 127.0.0.1:7171
+Login to 127.0.0.1:7172
+ERROR: Unable to send extended opcode 201, extended opcodes are not enabled on this server.
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+ERROR: Unable to send extended opcode 201, extended opcodes are not enabled on this server.
+Connecting to: 127.0.0.1:7171
+Login to 127.0.0.1:7172
+Login to 127.0.0.1:7172
+ERROR: Unable to send extended opcode 201, extended opcodes are not enabled on this server.
+Login to 127.0.0.1:7172
+ERROR: Unable to send extended opcode 201, extended opcodes are not enabled on this server.
+Login to 127.0.0.1:7172
+ERROR: Unable to send extended opcode 201, extended opcodes are not enabled on this server.
+Login to 127.0.0.1:7172
+ERROR: Unable to send extended opcode 201, extended opcodes are not enabled on this server.
+Login to 127.0.0.1:7172
+ERROR: Unable to send extended opcode 201, extended opcodes are not enabled on this server.
+Login to 127.0.0.1:7172
+ERROR: Unable to send extended opcode 201, extended opcodes are not enabled on this server.
+Connecting to: 127.0.0.1:7171
+Login to 127.0.0.1:7172
+ERROR: Unable to send extended opcode 201, extended opcodes are not enabled on this server.
+Login to 127.0.0.1:7172
+ERROR: Unable to send extended opcode 201, extended opcodes are not enabled on this server.
+Connecting to: 127.0.0.1:7171
+Login to 127.0.0.1:7172
+ERROR: Unable to send extended opcode 201, extended opcodes are not enabled on this server.
+Login to 127.0.0.1:7172
+ERROR: Unable to send extended opcode 201, extended opcodes are not enabled on this server.
+Connecting to: 127.0.0.1:7171
+Connecting to: 127.0.0.1:7171
+Login to 127.0.0.1:7172
+ERROR: Unable to send extended opcode 201, extended opcodes are not enabled on this server.
+Connecting to: 127.0.0.1:7171
+Login to 127.0.0.1:7172
+ERROR: Unable to send extended opcode 201, extended opcodes are not enabled on this server.
+ERROR: ProtocolGame parse message exception (51 bytes, 23 unread, last opcode is 0xb4 (180), prev opcode is 0x8c (140)): InputMessage eof reached
+Packet has been saved to packet.log, you can use it to find what was wrong. (Protocol: 1100)
+ERROR: ProtocolGame parse message exception (146 bytes, 23 unread, last opcode is 0xb4 (180), prev opcode is 0x8c (140)): InputMessage eof reached
+Packet has been saved to packet.log, you can use it to find what was wrong. (Protocol: 1100)
+ERROR: ProtocolGame parse message exception (51 bytes, 23 unread, last opcode is 0xb4 (180), prev opcode is 0x8c (140)): InputMessage eof reached
+Packet has been saved to packet.log, you can use it to find what was wrong. (Protocol: 1100)
+ERROR: ProtocolGame parse message exception (51 bytes, 23 unread, last opcode is 0xb4 (180), prev opcode is 0x8c (140)): InputMessage eof reached
+Packet has been saved to packet.log, you can use it to find what was wrong. (Protocol: 1100)
+ERROR: ProtocolGame parse message exception (51 bytes, 23 unread, last opcode is 0xb4 (180), prev opcode is 0x8c (140)): InputMessage eof reached
+Packet has been saved to packet.log, you can use it to find what was wrong. (Protocol: 1100)
+ERROR: ProtocolGame parse message exception (51 bytes, 23 unread, last opcode is 0xb4 (180), prev opcode is 0x8c (140)): InputMessage eof reached
+Packet has been saved to packet.log, you can use it to find what was wrong. (Protocol: 1100)
+Login to 127.0.0.1:7172
+ERROR: Unable to send extended opcode 201, extended opcodes are not enabled on this server.
+Login to 127.0.0.1:7172
+ERROR: Unable to send extended opcode 201, extended opcodes are not enabled on this server.
+ERROR: ProtocolGame parse message exception (506 bytes, 431 unread, last opcode is 0xb4 (180), prev opcode is 0xa0 (160)): InputMessage eof reached
+Packet has been saved to packet.log, you can use it to find what was wrong. (Protocol: 1100)
+Login to 127.0.0.1:7172
+ERROR: Unable to send extended opcode 201, extended opcodes are not enabled on this server.
+Login to 127.0.0.1:7172
+ERROR: Unable to send extended opcode 201, extended opcodes are not enabled on this server.
+Connecting to: 127.0.0.1:7171
+Login to 127.0.0.1:7172
+ERROR: Unable to send extended opcode 201, extended opcodes are not enabled on this server.
+Exiting application..
+GPU NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2 (NVIDIA Corporation)
+OpenGL 4.6.0 NVIDIA 581.29
+[Atlas] Texture size is: 4096x4096 (max: 32768x32768)
+Found work dir at 'C:/Users/Pedro/Documents/tiablo/client/'
+== application started at Mar 25 2026 09:01:20
+Fazendo Tibia 3.1 rev 225 (dev) made by otclient.net built on Jun  7 2022 for arch x86
+Connecting to: 127.0.0.1:7171
+Login to 127.0.0.1:7172
+ERROR: Unable to send extended opcode 201, extended opcodes are not enabled on this server.
+Login to 127.0.0.1:7172
+ERROR: Unable to send extended opcode 201, extended opcodes are not enabled on this server.
+Login to 127.0.0.1:7172
+ERROR: Unable to send extended opcode 201, extended opcodes are not enabled on this server.
+Exiting application..
+GPU NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2 (NVIDIA Corporation)
+OpenGL 4.6.0 NVIDIA 581.29
+[Atlas] Texture size is: 4096x4096 (max: 32768x32768)
+Found work dir at 'C:/Users/Pedro/Documents/tiablo/client/'
+== application started at Mar 26 2026 07:23:55
+Fazendo Tibia 3.1 rev 225 (dev) made by otclient.net built on Jun  7 2022 for arch x86
+Connecting to: 127.0.0.1:7171
+Login to 127.0.0.1:7172
+ERROR: Unable to send extended opcode 201, extended opcodes are not enabled on this server.
+Login to 127.0.0.1:7172
+ERROR: Unable to send extended opcode 201, extended opcodes are not enabled on this server.
+Login to 127.0.0.1:7172
+ERROR: Unable to send extended opcode 201, extended opcodes are not enabled on this server.
+Connecting to: 127.0.0.1:7171
+Login to 127.0.0.1:7172
+ERROR: Unable to send extended opcode 201, extended opcodes are not enabled on this server.
+Login to 127.0.0.1:7172
+ERROR: Unable to send extended opcode 201, extended opcodes are not enabled on this server.
+GPU NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2 (NVIDIA Corporation)
+OpenGL 4.6.0 NVIDIA 581.29
+[Atlas] Texture size is: 4096x4096 (max: 32768x32768)
+Found work dir at 'C:/Users/Pedro/Documents/tiablo/client/'
+== application started at Mar 26 2026 08:22:02
+Fazendo Tibia 3.1 rev 225 (dev) made by otclient.net built on Jun  7 2022 for arch x86
+Connecting to: 127.0.0.1:7171
+Login to 127.0.0.1:7172
+ERROR: Unable to send extended opcode 201, extended opcodes are not enabled on this server.
+Login to 127.0.0.1:7172
+ERROR: Unable to send extended opcode 201, extended opcodes are not enabled on this server.
+Login to 127.0.0.1:7172
+ERROR: Unable to send extended opcode 201, extended opcodes are not enabled on this server.
+Exiting application..
+Exiting application..
+GPU NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2 (NVIDIA Corporation)
+OpenGL 4.6.0 NVIDIA 581.29
+[Atlas] Texture size is: 4096x4096 (max: 32768x32768)
+Found work dir at 'C:/Users/Pedro/Documents/tiablo/client/'
+== application started at Mar 26 2026 08:33:38
+Fazendo Tibia 3.1 rev 225 (dev) made by otclient.net built on Jun  7 2022 for arch x86
+Connecting to: 127.0.0.1:7171
+Login to 127.0.0.1:7172
+ERROR: Unable to send extended opcode 201, extended opcodes are not enabled on this server.
+WARNING: attempt to destroy widget 'container0' two times
+WARNING: attempt to destroy widget 'container1' two times
+WARNING: attempt to destroy widget 'container2' two times
+ERROR: Unable to send extended opcode 201, extended opcodes are not enabled on this server.
+All modules and scripts were reloaded.
+Connecting to: 127.0.0.1:7171
+Login to 127.0.0.1:7172
+ERROR: Unable to send extended opcode 201, extended opcodes are not enabled on this server.
+Exiting application..
+WARNING: attempt to destroy widget 'terminalButton' two times
+GPU NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2 (NVIDIA Corporation)
+OpenGL 4.6.0 NVIDIA 581.29
+[Atlas] Texture size is: 4096x4096 (max: 32768x32768)
+Found work dir at 'C:/Users/Pedro/Documents/tiablo/client/'
+== application started at Mar 26 2026 08:38:59
+Fazendo Tibia 3.1 rev 225 (dev) made by otclient.net built on Jun  7 2022 for arch x86
+Connecting to: 127.0.0.1:7171
+Login to 127.0.0.1:7172
+ERROR: Unable to send extended opcode 201, extended opcodes are not enabled on this server.
+Exiting application..
+GPU NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2 (NVIDIA Corporation)
+OpenGL 4.6.0 NVIDIA 581.29
+[Atlas] Texture size is: 4096x4096 (max: 32768x32768)
+Found work dir at 'C:/Users/Pedro/Documents/tiablo/client/'
+== application started at Mar 26 2026 08:43:48
+Fazendo Tibia 3.1 rev 225 (dev) made by otclient.net built on Jun  7 2022 for arch x86
+Connecting to: 127.0.0.1:7171
+Login to 127.0.0.1:7172
+ERROR: Unable to send extended opcode 201, extended opcodes are not enabled on this server.
+WARNING: attempt to destroy widget 'container0' two times
+WARNING: attempt to destroy widget 'container1' two times
+WARNING: attempt to destroy widget 'container2' two times
+ERROR: Unable to send extended opcode 201, extended opcodes are not enabled on this server.
+All modules and scripts were reloaded.
+WARNING: attempt to destroy widget 'container0' two times
+WARNING: attempt to destroy widget 'container1' two times
+WARNING: attempt to destroy widget 'container2' two times
+ERROR: Unable to send extended opcode 201, extended opcodes are not enabled on this server.
+All modules and scripts were reloaded.
+WARNING: attempt to destroy widget 'container0' two times
+WARNING: attempt to destroy widget 'container1' two times
+WARNING: attempt to destroy widget 'container2' two times
+ERROR: Unable to send extended opcode 201, extended opcodes are not enabled on this server.
+All modules and scripts were reloaded.
+Exiting application..
+WARNING: attempt to destroy widget 'terminalButton' two times
+GPU NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2 (NVIDIA Corporation)
+OpenGL 4.6.0 NVIDIA 581.29
+[Atlas] Texture size is: 4096x4096 (max: 32768x32768)
+Found work dir at 'C:/Users/Pedro/Documents/tiablo/client/'
+== application started at Mar 26 2026 08:56:59
+Fazendo Tibia 3.1 rev 225 (dev) made by otclient.net built on Jun  7 2022 for arch x86
+Connecting to: 127.0.0.1:7171
+Login to 127.0.0.1:7172
+ERROR: Unable to send extended opcode 201, extended opcodes are not enabled on this server.
+WARNING: attempt to destroy widget 'container0' two times
+WARNING: attempt to destroy widget 'container1' two times
+WARNING: attempt to destroy widget 'container2' two times
+ERROR: Unable to send extended opcode 201, extended opcodes are not enabled on this server.
+All modules and scripts were reloaded.
+Login to 127.0.0.1:7172
+ERROR: Unable to send extended opcode 201, extended opcodes are not enabled on this server.
+Login to 127.0.0.1:7172
+ERROR: Unable to send extended opcode 201, extended opcodes are not enabled on this server.
+Login to 127.0.0.1:7172
+ERROR: Unable to send extended opcode 201, extended opcodes are not enabled on this server.
+Login to 127.0.0.1:7172
+ERROR: Unable to send extended opcode 201, extended opcodes are not enabled on this server.

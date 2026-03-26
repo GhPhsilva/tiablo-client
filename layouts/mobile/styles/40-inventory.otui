@@ -7,70 +7,70 @@ HeadSlot < InventoryItem
   image-source: /images/game/slots/head
   &position: {x=65535, y=1, z=0}
   $on:
-    image-source: /images/game/slots/head-blessed
+    image-source: /images/game/slots/head
 
 BodySlot < InventoryItem
   id: slot4
   image-source: /images/game/slots/body
   &position: {x=65535, y=4, z=0}
   $on:
-    image-source: /images/game/slots/body-blessed
+    image-source: /images/game/slots/body
 
 LegSlot < InventoryItem
   id: slot7
   image-source: /images/game/slots/legs
   &position: {x=65535, y=7, z=0}
   $on:
-    image-source: /images/game/slots/legs-blessed
+    image-source: /images/game/slots/legs
 
 FeetSlot < InventoryItem
   id: slot8
   image-source: /images/game/slots/feet
   &position: {x=65535, y=8, z=0}
   $on:
-    image-source: /images/game/slots/feet-blessed
+    image-source: /images/game/slots/feet
 
 NeckSlot < InventoryItem
   id: slot2
   image-source: /images/game/slots/neck
   &position: {x=65535, y=2, z=0}
   $on:
-    image-source: /images/game/slots/neck-blessed
+    image-source: /images/game/slots/neck
 
 LeftSlot < InventoryItem
   id: slot6
   image-source: /images/game/slots/left-hand
   &position: {x=65535, y=6, z=0}
   $on:
-    image-source: /images/game/slots/left-hand-blessed
+    image-source: /images/game/slots/left-hand
 
 FingerSlot < InventoryItem
   id: slot9
   image-source: /images/game/slots/finger
   &position: {x=65535, y=9, z=0}
   $on:
-    image-source: /images/game/slots/finger-blessed
+    image-source: /images/game/slots/finger
 
 BackSlot < InventoryItem
   id: slot3
   image-source: /images/game/slots/back
   &position: {x=65535, y=3, z=0}
   $on:
-    image-source: /images/game/slots/back-blessed
+    image-source: /images/game/slots/back
 
 RightSlot < InventoryItem
   id: slot5
   image-source: /images/game/slots/right-hand
   &position: {x=65535, y=5, z=0}
   $on:
-    image-source: /images/game/slots/right-hand-blessed
+    image-source: /images/game/slots/right-hand
 
 AmmoSlot < InventoryItem
   id: slot10
-  image-source: /images/game/slots/ammo
+  image-source: /images/game/slots/ring2
   &position: {x=65535, y=10, z=0}
   $on:
-    image-source: /images/game/slots/ammo-blessed
+    image-source: /images/game/slots/ring2
 
 PurseButton < UIButton
   id: purseButton
