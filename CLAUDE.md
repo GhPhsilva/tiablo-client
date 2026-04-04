@@ -105,6 +105,34 @@ Services = {
 
 While the client is running: **Ctrl+Shift+R** reloads all Lua modules without restarting.
 
+## Custom Inventory Slots
+
+This client extends the standard Tibia inventory with custom slots. Slot constants are defined in [`data/modules/gamelib/player.lua`](data/modules/gamelib/player.lua):
+
+| Constant | Value | Notes |
+|---|---|---|
+| `InventorySlotHead` | 1 | |
+| `InventorySlotNeck` | 2 | |
+| `InventorySlotBack` | 3 | |
+| `InventorySlotBody` | 4 | |
+| `InventorySlotRight` | 5 | |
+| `InventorySlotLeft` | 6 | |
+| `InventorySlotLeg` | 7 | |
+| `InventorySlotFeet` | 8 | |
+| `InventorySlotFinger` | 9 | |
+| `InventorySlotAmmo` | 10 | |
+| `InventorySlotPurse` | 11 | |
+| `InventorySlotBelt` | 12 | **Custom** — not in standard Tibia |
+| `InventorySlotLast` | 12 | Upper bound for slot iteration |
+
+The `BeltSlot` UI widget (`id: slot12`, `&position: {x=65535, y=12, z=0}`) is defined in both:
+- [`data/styles/40-inventory.otui`](data/styles/40-inventory.otui)
+- [`layouts/retro/styles/40-inventory.otui`](layouts/retro/styles/40-inventory.otui)
+
+Slot images live in [`data/images/game/slots/`](data/images/game/slots/) (`belt.png`, `belt-blessed.png`).
+
+The `InventorySlotStyles` map in [`data/modules/game_inventory/inventory.lua`](data/modules/game_inventory/inventory.lua) must be updated whenever a new slot is added.
+
 ## Localization
 
 Language files are under [data/locales/](data/locales/) (de, en, es, pl, pt, sv). Strings are referenced via `tr("key")`.
