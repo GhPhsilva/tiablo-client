@@ -79,6 +79,13 @@ BeltSlot < InventoryItem
   $on:
     image-source: /images/game/slots/belt
 
+GlovesSlot < InventoryItem
+  id: slot13
+  image-source: /images/game/slots/gloves
+  &position: {x=65535, y=13, z=0}
+  $on:
+    image-source: /images/game/slots/gloves
+
 PurseButton < UIButton
   id: purseButton
   size: 34 12
@@ -221,7 +228,12 @@ InventoryWindow < HeadlessMiniWindow
         anchors.top: prev.bottom
         anchors.horizontalCenter: prev.horizontalCenter
         margin-top: 3
-        
+
+      GlovesSlot
+        anchors.top: slot9.bottom
+        anchors.horizontalCenter: slot9.horizontalCenter
+        margin-top: 3
+
       BackSlot
         anchors.top: slot1.top
         anchors.left: slot1.right
@@ -245,8 +257,8 @@ InventoryWindow < HeadlessMiniWindow
         
       SoulCapLabel
         id: capLabel
-        anchors.top: slot9.bottom
-        anchors.horizontalCenter: slot9.horizontalCenter
+        anchors.top: slot13.bottom
+        anchors.horizontalCenter: slot13.horizontalCenter
 
       PurseButton
         anchors.left: slot3.left

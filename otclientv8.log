@@ -2194,3 +2194,95 @@ OpenGL 4.6.0 - Build 31.0.101.5333
 Found work dir at 'C:/Users/Pedro/Documents/tiablo/client/'
 == application started at Apr 04 2026 09:38:50
 Fazendo Tibia 3.1 rev 225 (dev) made by otclient.net built on Jun  7 2022 for arch x86
+Connecting to: 127.0.0.1:7171
+Connecting to: 127.0.0.1:7171
+Login to 127.0.0.1:7172
+ERROR: Unable to send extended opcode 201, extended opcodes are not enabled on this server.
+ERROR: Unable to load texture '/images/game/slots/gloves-blessed': unable to open file '/images/game/slots/gloves-blessed.png': not found
+WARNING: attempt to destroy widget 'container0' two times
+ERROR: Unable to send extended opcode 201, extended opcodes are not enabled on this server.
+All modules and scripts were reloaded.
+ERROR: Unable to load texture '/images/game/slots/gloves-blessed': unable to open file '/images/game/slots/gloves-blessed.png': not found
+ERROR: Unable to load texture '/images/game/slots/gloves-blessed': unable to open file '/images/game/slots/gloves-blessed.png': not found
+ERROR: Unable to load texture '/images/game/slots/gloves-blessed': unable to open file '/images/game/slots/gloves-blessed.png': not found
+ERROR: Unable to load texture '/images/game/slots/gloves-blessed': unable to open file '/images/game/slots/gloves-blessed.png': not found
+ERROR: Unable to load texture '/images/game/slots/gloves-blessed': unable to open file '/images/game/slots/gloves-blessed.png': not found
+ERROR: Unable to load texture '/images/game/slots/gloves-blessed': unable to open file '/images/game/slots/gloves-blessed.png': not found
+ERROR: Unable to load texture '/images/game/slots/gloves-blessed': unable to open file '/images/game/slots/gloves-blessed.png': not found
+ERROR: Unable to load texture '/images/game/slots/gloves': unable to open file '/images/game/slots/gloves.png': not found
+ERROR: Unable to load texture '/images/game/slots/gloves-blessed': unable to open file '/images/game/slots/gloves-blessed.png': not found
+ERROR: Unable to send extended opcode 201, extended opcodes are not enabled on this server.
+All modules and scripts were reloaded.
+ERROR: Unable to load texture '/images/game/slots/gloves-blessed': unable to open file '/images/game/slots/gloves-blessed.png': not found
+ERROR: Unable to load texture '/images/game/slots/gloves-blessed': unable to open file '/images/game/slots/gloves-blessed.png': not found
+ERROR: Unable to load texture '/images/game/slots/gloves-blessed': unable to open file '/images/game/slots/gloves-blessed.png': not found
+ERROR: Unable to load texture '/images/game/slots/gloves-blessed': unable to open file '/images/game/slots/gloves-blessed.png': not found
+ERROR: Unable to load texture '/images/game/slots/gloves-blessed': unable to open file '/images/game/slots/gloves-blessed.png': not found
+ERROR: Unable to load texture '/images/game/slots/gloves-blessed': unable to open file '/images/game/slots/gloves-blessed.png': not found
+ERROR: Unable to load texture '/images/game/slots/gloves-blessed': unable to open file '/images/game/slots/gloves-blessed.png': not found
+ERROR: Unable to load texture '/images/game/slots/gloves-blessed': unable to open file '/images/game/slots/gloves-blessed.png': not found
+ERROR: Unable to send extended opcode 201, extended opcodes are not enabled on this server.
+All modules and scripts were reloaded.
+ERROR: Unable to load texture '/images/game/slots/gloves-blessed': unable to open file '/images/game/slots/gloves-blessed.png': not found
+ERROR: Unable to load texture '/images/game/slots/gloves-blessed': unable to open file '/images/game/slots/gloves-blessed.png': not found
+ERROR: Unable to load texture '/images/game/slots/gloves-blessed': unable to open file '/images/game/slots/gloves-blessed.png': not found
+ERROR: Unable to load texture '/images/game/slots/gloves-blessed': unable to open file '/images/game/slots/gloves-blessed.png': not found
+ERROR: Unable to load texture '/images/game/slots/gloves-blessed': unable to open file '/images/game/slots/gloves-blessed.png': not found
+ERROR: Unable to load texture '/images/game/slots/gloves-blessed': unable to open file '/images/game/slots/gloves-blessed.png': not found
+ERROR: Unable to load texture '/images/game/slots/gloves-blessed': unable to open file '/images/game/slots/gloves-blessed.png': not found
+ERROR: Unable to load texture '/images/game/slots/gloves-blessed': unable to open file '/images/game/slots/gloves-blessed.png': not found
+ERROR: Unable to load texture '/images/game/slots/gloves-blessed': unable to open file '/images/game/slots/gloves-blessed.png': not found
+ERROR: Unable to load texture '/images/game/slots/gloves-blessed': unable to open file '/images/game/slots/gloves-blessed.png': not found
+WARNING: attempt to destroy widget 'container0' two times
+ERROR: Unable to send extended opcode 201, extended opcodes are not enabled on this server.
+All modules and scripts were reloaded.
+WARNING: attempt to destroy widget 'container0' two times
+ERROR: Unable to send extended opcode 201, extended opcodes are not enabled on this server.
+All modules and scripts were reloaded.
+Login to 127.0.0.1:7172
+ERROR: Unable to send extended opcode 201, extended opcodes are not enabled on this server.
+Login to 127.0.0.1:7172
+ERROR: Unable to send extended opcode 201, extended opcodes are not enabled on this server.
+ERROR: ProtocolGame parse message exception (218 bytes, 204 unread, last opcode is 0x70 (112), prev opcode is 0xffffffff (-1)): unable to create item with invalid id 44783
+Packet has been saved to packet.log, you can use it to find what was wrong. (Protocol: 1100)
+ERROR: ProtocolGame parse message exception (218 bytes, 204 unread, last opcode is 0x70 (112), prev opcode is 0xffffffff (-1)): unable to create item with invalid id 44783
+Packet has been saved to packet.log, you can use it to find what was wrong. (Protocol: 1100)
+ERROR: ProtocolGame parse message exception (218 bytes, 204 unread, last opcode is 0x70 (112), prev opcode is 0xffffffff (-1)): unable to create item with invalid id 44783
+Packet has been saved to packet.log, you can use it to find what was wrong. (Protocol: 1100)
+ERROR: ProtocolGame parse message exception (619 bytes, 56 unread, last opcode is 0x6e (110), prev opcode is 0xa0 (160)): unable to create item with invalid id 44783
+Packet has been saved to packet.log, you can use it to find what was wrong. (Protocol: 1100)
+ERROR: ProtocolGame parse message exception (223 bytes, 209 unread, last opcode is 0x70 (112), prev opcode is 0xffffffff (-1)): unable to create item with invalid id 44783
+Packet has been saved to packet.log, you can use it to find what was wrong. (Protocol: 1100)
+Exiting application..
+WARNING: attempt to destroy widget 'terminalButton' two times
+GPU Intel(R) UHD Graphics (Intel)
+OpenGL 4.6.0 - Build 31.0.101.5333
+[Atlas] Texture size is: 4096x4096 (max: 16384x16384)
+Found work dir at 'C:/Users/Pedro/Documents/tiablo/client/'
+== application started at Apr 04 2026 20:53:31
+Fazendo Tibia 3.1 rev 225 (dev) made by otclient.net built on Jun  7 2022 for arch x86
+Connecting to: 127.0.0.1:7171
+Connecting to: 127.0.0.1:7171
+Login to 127.0.0.1:7172
+ERROR: Unable to send extended opcode 201, extended opcodes are not enabled on this server.
+Login to 127.0.0.1:7172
+ERROR: Unable to send extended opcode 201, extended opcodes are not enabled on this server.
+Login to 127.0.0.1:7172
+ERROR: Unable to send extended opcode 201, extended opcodes are not enabled on this server.
+Login to 127.0.0.1:7172
+ERROR: Unable to send extended opcode 201, extended opcodes are not enabled on this server.
+Connecting to: 127.0.0.1:7171
+Login to 127.0.0.1:7172
+ERROR: Unable to send extended opcode 201, extended opcodes are not enabled on this server.
+Connecting to: 127.0.0.1:7171
+Connecting to: 127.0.0.1:7171
+Login to 127.0.0.1:7172
+ERROR: Unable to send extended opcode 201, extended opcodes are not enabled on this server.
+ERROR: ProtocolGame parse message exception (7507 bytes, 2657 unread, last opcode is 0x07 (7), prev opcode is 0x78 (120)): unhandled opcode 7
+Packet has been saved to packet.log, you can use it to find what was wrong. (Protocol: 1100)
+Connecting to: 127.0.0.1:7171
+Login to 127.0.0.1:7172
+ERROR: Unable to send extended opcode 201, extended opcodes are not enabled on this server.
+ERROR: ProtocolGame parse message exception (6476 bytes, 2657 unread, last opcode is 0x07 (7), prev opcode is 0x78 (120)): unhandled opcode 7
+Packet has been saved to packet.log, you can use it to find what was wrong. (Protocol: 1100)
+Login to 127.0.0.1:7172
