@@ -208,11 +208,6 @@ InventoryWindow < HeadlessMiniWindow
         anchors.horizontalCenter: prev.horizontalCenter
         margin-top: 3
 
-      FeetSlot
-        anchors.top: prev.bottom
-        anchors.horizontalCenter: prev.horizontalCenter
-        margin-top: 3
-
       NeckSlot
         anchors.top: slot1.top
         anchors.right: slot1.left
@@ -250,10 +245,15 @@ InventoryWindow < HeadlessMiniWindow
         anchors.horizontalCenter: prev.horizontalCenter
         margin-top: 3
 
+      FeetSlot
+        anchors.top: prev.bottom
+        anchors.horizontalCenter: prev.horizontalCenter
+        margin-top: 3
+
       SoulCapLabel
         id: soulLabel
-        anchors.top: slot10.bottom
-        anchors.horizontalCenter: slot10.horizontalCenter
+        anchors.top: slot8.bottom
+        anchors.horizontalCenter: slot8.horizontalCenter
         
       SoulCapLabel
         id: capLabel
@@ -271,7 +271,7 @@ InventoryWindow < HeadlessMiniWindow
           type: horizontalBox
         height: 22
         padding: 2
-        anchors.top: slot8.bottom
+        anchors.top: capLabel.bottom
         anchors.left: slot6.left
         anchors.right: slot5.right
         margin-top: 4
