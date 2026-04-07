@@ -1,0 +1,104 @@
+WaypointItem < Panel
+  height: 52
+  focusable: true
+  margin-bottom: 2
+
+  $focus:
+    background-color: #2a2a4a
+
+  UIWidget
+    id: itemImage
+    width: 44
+    height: 44
+    anchors.left: parent.left
+    anchors.verticalCenter: parent.verticalCenter
+    margin-left: 4
+    border-width: 1
+    border-color: #444444
+    image-source: /images/waypoints/default
+
+  Label
+    id: name
+    font: verdana-11px-rounded
+    anchors.verticalCenter: parent.verticalCenter
+    anchors.left: itemImage.right
+    anchors.right: parent.right
+    margin-left: 8
+    color: #ffffff
+
+MainWindow
+  id: waypointsWindow
+  !text: tr('Waypoints')
+  size: 480 440
+  @onEscape: modules.game_waypoints.hide()
+  @onClose: modules.game_waypoints.hide()
+
+  TabBar
+    id: waypointsTabBar
+    height: 21
+    anchors.top: parent.top
+    anchors.left: parent.left
+    anchors.right: parent.right
+
+  TextList
+    id: waypointList
+    anchors.top: waypointsTabBar.bottom
+    anchors.left: parent.left
+    anchors.right: waypointScrollBar.left
+    anchors.bottom: descriptionPanel.top
+    margin-top: 5
+    margin-bottom: 5
+    focusable: false
+    vertical-scrollbar: waypointScrollBar
+
+  VerticalScrollBar
+    id: waypointScrollBar
+    anchors.top: waypointList.top
+    anchors.bottom: waypointList.bottom
+    anchors.right: parent.right
+    step: 54
+    pixels-scroll: true
+
+  Panel
+    id: descriptionPanel
+    height: 65
+    anchors.left: parent.left
+    anchors.right: parent.right
+    anchors.bottom: buttonsPanel.top
+    margin-bottom: 5
+    background-color: #111111
+    border-width: 1
+    border-color: #333333
+
+    Label
+      id: descriptionLabel
+      anchors.fill: parent
+      margin: 6
+      text-wrap: true
+      text-auto-resize: false
+      color: #aaaaaa
+      font: verdana-11px-rounded
+
+  Panel
+    id: buttonsPanel
+    height: 30
+    anchors.left: parent.left
+    anchors.right: parent.right
+    anchors.bottom: parent.bottom
+
+    Button
+      id: teleportButton
+      !text: tr('Teleport')
+      width: 80
+      anchors.right: closeButton.left
+      anchors.verticalCenter: parent.verticalCenter
+      margin-right: 5
+      @onClick: modules.game_waypoints.onTeleport()
+
+    Button
+      id: closeButton
+      !text: tr('Close')
+      width: 60
+      anchors.right: parent.right
+      anchors.verticalCenter: parent.verticalCenter
+      @onClick: modules.game_waypoints.hide()

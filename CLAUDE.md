@@ -133,6 +133,177 @@ Slot images live in [`data/images/game/slots/`](data/images/game/slots/) (`belt.
 
 The `InventorySlotStyles` map in [`data/modules/game_inventory/inventory.lua`](data/modules/game_inventory/inventory.lua) must be updated whenever a new slot is added.
 
+## Extended Opcodes (Client ↔ Server)
+
+Extended opcodes require `GameExtendedOpcode` to be enabled in `data/modules/game_features/features.lua`:
+
+```lua
+g_game.enableFeature(GameExtendedOpcode)
+```
+
+### Receiving from Server
+
+Register a callback via `ProtocolGame.registerExtendedOpcode` in `init()`. The callback receives the raw buffer string including its prefix character.
+
+```lua
+ProtocolGame.registerExtendedOpcode(100, onMyData)
+
+function onMyData(protocol, opcode, buffer)
+    local jsonStr = buffer:sub(2)  -- strip "O" prefix
+    local ok, data = pcall(function() return json.decode(jsonStr) end)
+    if not ok or type(data) ~= 'table' then return end
+    -- use data
+end
+```
+
+Always unregister in `terminate()`:
+
+```lua
+ProtocolGame.unregisterExtendedOpcode(100)
+```
+
+**`registerExtendedOpcode` throws if opcode already taken.** The `unregisterExtendedOpcode` also throws if not registered. If there's a risk of partial cleanup (e.g., during reload), use `pcall`.
+
+### Sending to Server
+
+```lua
+local protocolGame = g_game.getProtocolGame()
+if protocolGame then
+    protocolGame:sendExtendedOpcode(100, '{"action":"teleport","waypoint_id":1}')
+end
+```
+
+### Timing: Request Pattern (Critical)
+
+Server opcodes sent during login arrive **before modules finish reloading**. Never rely on the server pushing data on login. Instead, the client must request data after `onGameStart`:
+
+```lua
+function init()
+    ProtocolGame.registerExtendedOpcode(MY_OPCODE, onData)
+    connect(g_game, { onGameStart = requestData, onGameEnd = onGameEnd })
+    if g_game.isOnline() then  -- handles Ctrl+Shift+R reload while in-game
+        requestData()
+    end
+end
+
+function requestData()
+    local pg = g_game.getProtocolGame()
+    if pg then pg:sendExtendedOpcode(MY_OPCODE, '{"action":"request"}') end
+end
+```
+
+## UI Patterns
+
+### Centered Dialog vs Side Panel
+
+- **Side panel** (MiniWindow): use `g_ui.loadUI('file', modules.game_interface.getRightPanel())`
+- **Centered dialog** (like prey/hotkeys): use `g_ui.displayUI('file')` with `MainWindow` in the `.otui`
+
+With `displayUI`, call `window:hide()` right after creation and show/hide manually.
+
+### `getChildById` is NOT Recursive in MiniWindow
+
+`MiniWindow` wraps its content inside `MiniWindowContents`, which is always accessible as `contentsPanel`. Navigate explicitly:
+
+```lua
+-- WRONG: returns nil
+waypointList = window:getChildById('waypointList')
+
+-- CORRECT: go through contentsPanel first
+local contents = window:getChildById('contentsPanel')
+waypointList = contents:getChildById('waypointList')
+```
+
+For `MainWindow` (used with `displayUI`), `getChildById` finds direct children and works for flat layouts.
+
+### TextList API
+
+`TextList` does **not** have `addItem()` or `clearItems()`. The correct API:
+
+```lua
+-- Clear
+list:destroyChildren()
+
+-- Add item (define a style in .otui first)
+local label = g_ui.createWidget('MyListLabel', list)
+label:setText('Item name')
+label:setId('item_123')
+
+-- Get selected item
+local selected = list:getFocusedChild()  -- NOT getFocusedItem()
+```
+
+### List Item Style Template
+
+```otui
+MyListLabel < Label
+  font: verdana-11px-monochrome
+  background-color: alpha
+  text-offset: 2 0
+  focusable: true
+
+  $focus:
+    background-color: #ffffff22
+    color: #ffffff
+```
+
+### Dynamic Tabs (TabBar)
+
+Use `TabBar` (horizontal) from `data/styles/20-tabbars.otui`. Tabs and their panels are managed automatically. To use tabs for filtering (without separate panels per tab), skip `setContentWidget` and hook `onTabChange`:
+
+```lua
+tabBar.onTabChange = function(tabBar, tab)
+    filterList(tab:getText())
+end
+
+-- Add tab dynamically
+tabBar:addTab('Category Name')  -- auto-sizes button width to text
+```
+
+**Always clear tabs before rebuilding** (e.g., on reconnect) — the TabBar accumulates tabs otherwise:
+
+```lua
+local function clearTabs()
+    tabBar.currentTab = nil      -- prevent selectTab from touching a destroyed widget
+    local tabs = tabBar.tabs
+    tabBar.tabs = {}
+    for _, t in ipairs(tabs) do
+        t:destroy()              -- tab.onDestroy also destroys t.tabPanel
+    end
+end
+```
+
+Call `clearTabs()` in `onGameEnd` and at the start of every data refresh.
+
+### Child Focus Change
+
+```lua
+list.onChildFocusChange = function(list, child)
+    if child and child.someData then
+        label:setText(child.someData.description)
+    end
+end
+```
+
+### Image Source
+
+```lua
+widget:setImageSource('/images/mypath/name')  -- no .png extension needed
+-- check existence before setting:
+if g_resources.fileExists('/images/mypath/name.png') then
+    widget:setImageSource('/images/mypath/name')
+end
+```
+
+### Double-Click on Widget
+
+```lua
+item.onDoubleClick = function()
+    doSomething()
+    return true  -- consume event
+end
+```
+
 ## Localization
 
 Language files are under [data/locales/](data/locales/) (de, en, es, pl, pt, sv). Strings are referenced via `tr("key")`.

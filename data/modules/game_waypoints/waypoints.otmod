@@ -1,0 +1,9 @@
+Module
+  name: game_waypoints
+  description: Waypoints fast-travel system
+  author: tiablo
+  sandboxed: true
+  scripts: [ waypoints ]
+  @onLoad: init()
+  @onUnload: terminate()
+  dependencies: [client_topmenu, game_interface]
