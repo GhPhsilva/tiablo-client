@@ -14,9 +14,20 @@ This is **OtClientV8** — a Tibia game client desktop application. The core eng
 IP = "127.0.0.1"    -- game server address
 VERSION = "1100"     -- protocol version (1100 = Tibia 13.20 sprites)
 g_app.setName("Fazendo Tibia")
-DEFAULT_LAYOUT = "retro"
+DEFAULT_LAYOUT = "mobile"
 ALLOW_CUSTOM_SERVERS = false
 ```
+
+### Layout Lock
+
+The layout is **hardcoded to `"mobile"`** — the settings file is never consulted for the layout value:
+
+```lua
+-- init.lua
+g_resources.setLayout(DEFAULT_LAYOUT)  -- no elseif settings:exists('layout') branch
+```
+
+The layout selector UI (`id: layout` ComboBox in `client_options/interface.otui`) is permanently hidden (`visible: false`). Do **not** restore the `settings:getValue('layout')` branch — it would allow users to override the mobile layout.
 
 ## Architecture
 
@@ -101,6 +112,16 @@ Services = {
 }
 ```
 
+## TopBar
+
+The topBar (`game_topbar` module) is **enabled by default**. The default is set in [`data/modules/game_topbar/topbar.lua`](data/modules/game_topbar/topbar.lua):
+
+```lua
+topBar:setVisible(g_settings.getBoolean("topBar", true))  -- second arg = default
+```
+
+The topBar occupies the center-top area of the screen (between left and right panels) and does **not** affect the right panel height. It is rendered last in `gameinterface.otui` (highest z-order) but bounded by `gameRightPanels.left` on the right.
+
 ## Hot Reload
 
 While the client is running: **Ctrl+Shift+R** reloads all Lua modules without restarting.
@@ -123,13 +144,19 @@ This client extends the standard Tibia inventory with custom slots. Slot constan
 | `InventorySlotAmmo` | 10 | |
 | `InventorySlotPurse` | 11 | |
 | `InventorySlotBelt` | 12 | **Custom** — not in standard Tibia |
-| `InventorySlotLast` | 12 | Upper bound for slot iteration |
+| `InventorySlotGloves` | 13 | **Custom** — not in standard Tibia |
+| `InventorySlotLast` | 13 | Upper bound for slot iteration |
 
-The `BeltSlot` UI widget (`id: slot12`, `&position: {x=65535, y=12, z=0}`) is defined in both:
-- [`data/styles/40-inventory.otui`](data/styles/40-inventory.otui)
-- [`layouts/retro/styles/40-inventory.otui`](layouts/retro/styles/40-inventory.otui)
+Custom slot UI widgets are defined in **all three** inventory style files:
+- [`data/styles/40-inventory.otui`](data/styles/40-inventory.otui) — height: 237
+- [`layouts/retro/styles/40-inventory.otui`](layouts/retro/styles/40-inventory.otui) — height: 240
+- [`layouts/mobile/styles/40-inventory.otui`](layouts/mobile/styles/40-inventory.otui) — height: 240
 
-Slot images live in [`data/images/game/slots/`](data/images/game/slots/) (`belt.png`, `belt-blessed.png`).
+Inventory layout (all layouts): center column = Head→Body→**Belt**→Leg; left column = Neck→Left→Finger→**Gloves**; right column = Back→Right→Ammo→Feet. The `capLabel` anchors to `slot13.bottom` and `conditionPanel` anchors to `capLabel.bottom`.
+
+**When adding a new slot**, update all three OTUI files AND increase `InventoryWindow height` to fit the new content (calculate: `margin-top:2 + conditionPanel.bottom + margin-bottom:3`).
+
+Slot images live in [`data/images/game/slots/`](data/images/game/slots/).
 
 The `InventorySlotStyles` map in [`data/modules/game_inventory/inventory.lua`](data/modules/game_inventory/inventory.lua) must be updated whenever a new slot is added.
 
@@ -343,6 +370,41 @@ item.onDoubleClick = function()
     return true  -- consume event
 end
 ```
+
+## Login Screen
+
+### Audio
+
+Login screen music is played in [`data/modules/client_entergame/entergame.lua`](data/modules/client_entergame/entergame.lua) using `SoundChannels.Music`. The music file is `data/sounds/login.ogg`.
+
+Key rules for the audio pattern:
+
+```lua
+local function startLoginMusic()
+    if not g_sounds then return end
+    local channel = g_sounds.getChannel(SoundChannels.Music)
+    if not channel then return end
+    channel:setEnabled(true)
+    channel:play('/sounds/login', 0, 1.0)
+end
+
+local function stopLoginMusic()
+    if not g_sounds then return end
+    local channel = g_sounds.getChannel(SoundChannels.Music)
+    if not channel then return end
+    channel:setEnabled(false)  -- MUST disable, not just stop
+    channel:stop(0)
+end
+```
+
+- **`startLoginMusic`** is called in `EnterGame.show()`.
+- **`stopLoginMusic`** is called in both `EnterGame.hide()` AND connected to `g_game.onGameStart` — the double-stop is intentional because `g_sounds.setAudioEnabled(true)` can internally resume a stopped channel before the game starts.
+- `channel:setEnabled(false)` is required alongside `stop(0)`. Calling only `stop()` is not enough — the engine may resume the channel after `g_sounds.setAudioEnabled(true)`.
+- When the audio button re-enables audio (`enableAudio = true`) in `client_options/options.lua`, the music is restarted if `not g_game.isOnline()`.
+
+### Token Field
+
+The authenticator token field is **disabled** — hidden in `entergame.otui` with `visible: false` and `height: 0`. The widget (`id: accountTokenTextEdit`) still exists so Lua references (`getText()`, `clearText()`) don't break; it sends an empty string as the token.
 
 ## Localization
 
