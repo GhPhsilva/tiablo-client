@@ -1,6 +1,8 @@
 skillsWindow = nil
 skillsButton = nil
 
+local ATTACK_SPEED_OPCODE = 101
+
 function init()
   connect(LocalPlayer, {
     onExperienceChange = onExperienceChange,
@@ -24,6 +26,7 @@ function init()
     onGameStart = refresh,
     onGameEnd = offline
   })
+  ProtocolGame.registerExtendedOpcode(ATTACK_SPEED_OPCODE, onAttackSpeedOpcode)
 
   skillsButton = modules.client_topmenu.addRightGameToggleButton('skillsButton', tr('Skills'), '/images/topbuttons/skills', toggle, false, 1)
   skillsButton:setOn(true)
@@ -59,6 +62,13 @@ function terminate()
 
   skillsWindow:destroy()
   skillsButton:destroy()
+  ProtocolGame.unregisterExtendedOpcode(ATTACK_SPEED_OPCODE)
+end
+
+function onAttackSpeedOpcode(protocol, opcode, buffer)
+  local value = tonumber(buffer)
+  if not value then return end
+  setSkillValue('skillId' .. Skill.AttackSpeed, string.format("%.2f%%", value / 10))
 end
 
 function expForLevel(level)
@@ -213,13 +223,23 @@ function refresh()
   onSpeedChange(player, player:getSpeed())
 
   local hasAdditionalSkills = g_game.getFeature(GameAdditionalSkills)
-  for i = Skill.Fist, Skill.ManaLeechAmount do
-    onSkillChange(player, i, player:getSkillLevel(i), player:getSkillLevelPercent(i))
-    onBaseSkillChange(player, i, player:getSkillBaseLevel(i))
+  for i = Skill.Fist, Skill.AttackSpeed do
+    -- Attack speed value comes via extended opcode (skill 13 is not in binary protocol).
+    -- Skipping here prevents refresh() from overwriting the display with 0.00%.
+    if i ~= Skill.AttackSpeed then
+      onSkillChange(player, i, player:getSkillLevel(i), player:getSkillLevelPercent(i))
+      onBaseSkillChange(player, i, player:getSkillBaseLevel(i))
+    end
 
     if i > Skill.Fishing then
       toggleSkill('skillId'..i, hasAdditionalSkills)
     end
+  end
+
+  -- Request current attack speed from server now that modules are initialized.
+  local protocolGame = g_game.getProtocolGame()
+  if protocolGame then
+    protocolGame:sendExtendedOpcode(ATTACK_SPEED_OPCODE, 'request')
   end
 
   update()
@@ -426,7 +446,13 @@ function onBaseMagicLevelChange(localPlayer, baseMagicLevel)
 end
 
 function onSkillChange(localPlayer, id, level, percent)
-  setSkillValue('skillId' .. id, level)
+  local displayValue = level
+  if id == Skill.CriticalChance or id == Skill.CriticalDamage or id == Skill.LifeLeechAmount or id == Skill.ManaLeechAmount then
+    displayValue = string.format("%.2f%%", level / 100)
+  elseif id == Skill.LifeLeechChance or id == Skill.ManaLeechChance or id == Skill.AttackSpeed then
+    displayValue = string.format("%.2f%%", level / 10)
+  end
+  setSkillValue('skillId' .. id, displayValue)
   setSkillPercent('skillId' .. id, percent, tr('You have %s percent to go', 100 - percent))
 
   onBaseSkillChange(localPlayer, id, localPlayer:getSkillBaseLevel(id))
