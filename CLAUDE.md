@@ -133,6 +133,46 @@ Slot images live in [`data/images/game/slots/`](data/images/game/slots/) (`belt.
 
 The `InventorySlotStyles` map in [`data/modules/game_inventory/inventory.lua`](data/modules/game_inventory/inventory.lua) must be updated whenever a new slot is added.
 
+## Custom Skills
+
+This client extends the standard Tibia skill set. Skill constants are defined in [`data/modules/gamelib/const.lua`](data/modules/gamelib/const.lua):
+
+| Constant | Value | Notes |
+|---|---|---|
+| `Skill.Fist` | 0 | |
+| `Skill.Club` | 1 | |
+| `Skill.Sword` | 2 | |
+| `Skill.Axe` | 3 | |
+| `Skill.Distance` | 4 | |
+| `Skill.Shielding` | 5 | |
+| `Skill.Fishing` | 6 | |
+| `Skill.CriticalChance` | 7 | Additional skill |
+| `Skill.CriticalDamage` | 8 | Additional skill |
+| `Skill.LifeLeechChance` | 9 | Additional skill |
+| `Skill.LifeLeechAmount` | 10 | Additional skill |
+| `Skill.ManaLeechChance` | 11 | Additional skill |
+| `Skill.ManaLeechAmount` | 12 | Additional skill |
+| `Skill.AttackSpeed` | 13 | **Custom** — not in standard Tibia binary protocol |
+
+### Attack Speed Skill
+
+`Skill.AttackSpeed` (13) is not transmitted via the standard binary protocol. Its value is delivered via **extended opcode 101** (`ATTACK_SPEED_OPCODE`) in [`data/modules/game_skills/skills.lua`](data/modules/game_skills/skills.lua).
+
+- The server sends a raw numeric string; the client parses it and displays `value / 10` as `"%.2f%%"`.
+- The UI widget is `skillId13` ("Bonus Attack Speed") in [`data/modules/game_skills/skills.otui`](data/modules/game_skills/skills.otui).
+- In `refresh()`, `Skill.AttackSpeed` is **skipped** intentionally to avoid overwriting the opcode-provided value with `0`. This is the correct pattern for any skill whose value arrives out-of-band.
+- `refresh()` also sends a `'request'` payload on opcode 101 after game start so the server pushes the current value.
+
+### Skill Display Formatting
+
+`onSkillChange` in `skills.lua` applies special formatting based on skill id:
+
+| Skills | Format |
+|---|---|
+| `CriticalChance`, `CriticalDamage`, `LifeLeechAmount`, `ManaLeechAmount` | `level / 100` → `"%.2f%%"` |
+| `LifeLeechChance`, `ManaLeechChance`, `AttackSpeed` | `level / 10` → `"%.2f%%"` |
+| All others | raw integer |
+
 ## Extended Opcodes (Client ↔ Server)
 
 Extended opcodes require `GameExtendedOpcode` to be enabled in `data/modules/game_features/features.lua`:
