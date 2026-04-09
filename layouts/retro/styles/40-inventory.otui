@@ -143,7 +143,7 @@ MountButton < CombatBox
 
 InventoryWindow < HeadlessMiniWindow
   icon: /images/topbuttons/inventory
-  height: 215
+  height: 240
   id: inventoryWindow
   @onClose: modules.game_inventory.onMiniWindowClose()
   &save: true

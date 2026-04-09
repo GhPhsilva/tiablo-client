@@ -303,7 +303,7 @@ end
 
 function show()
     if not g_game.isOnline() then return end
-    topBar:setVisible(g_settings.getBoolean("topBar", false))
+    topBar:setVisible(g_settings.getBoolean("topBar", true))
 end
 
 function setupSkillPanel(id, parent, experience, defaultOff)

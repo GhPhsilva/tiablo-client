@@ -2707,3 +2707,853 @@ ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively an
 ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
 ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
 Exiting application..
+GPU Intel(R) UHD Graphics (Intel)
+OpenGL 4.6.0 - Build 31.0.101.5333
+[Atlas] Texture size is: 4096x4096 (max: 16384x16384)
+Found work dir at 'C:/Users/Pedro/Documents/tiablo/client/'
+== application started at Apr 09 2026 07:44:32
+Fazendo Tibia 3.1 rev 225 (dev) made by otclient.net built on Jun  7 2022 for arch x86
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+Connecting to: 127.0.0.1:7171
+Login to 127.0.0.1:7172
+ERROR: protected lua call failed: /data/modules/game_inventory/inventory.lua:243: attempt to index local 'itemWidget' (a nil value)
+stack traceback:
+	[C]: in function '__index'
+	/data/modules/game_inventory/inventory.lua:243: in function </data/modules/game_inventory/inventory.lua:231>
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+WARNING: HTTP error: Invalid http status code (404) - http://127.0.0.1/images/store/64/Category_Casks.png
+WARNING: HTTP error: Invalid http status code (404) - http://127.0.0.1/images/store/64/Category_Consumables.png
+WARNING: HTTP error: Invalid http status code (404) - http://127.0.0.1/images/store/64/Category_PremiumTime.png
+WARNING: HTTP error: Invalid http status code (404) - http://127.0.0.1/images/store/64/Category_ExerciseWeapons.png
+WARNING: HTTP error: Invalid http status code (404) - http://127.0.0.1/images/store/64/Category_Blessings.png
+WARNING: HTTP error: Invalid http status code (404) - http://127.0.0.1/images/store/64/Category_HouseUpgrades.png
+WARNING: HTTP error: Invalid http status code (404) - http://127.0.0.1/images/store/64/Category_Cosmetics.png
+WARNING: HTTP error: Invalid http status code (404) - http://127.0.0.1/images/store/64/Category_Runes.png
+WARNING: HTTP error: Invalid http status code (404) - http://127.0.0.1/images/store/64/Category_Potions.png
+WARNING: HTTP error: Invalid http status code (404) - http://127.0.0.1/images/store/64/Category_Kegs.png
+WARNING: HTTP error: Invalid http status code (404) - http://127.0.0.1/images/store/64/Category_Mounts.png
+WARNING: HTTP error: Invalid http status code (404) - http://127.0.0.1/images/store/64/Category_HouseTools_NPCDresses.png
+WARNING: HTTP error: Invalid http status code (404) - http://127.0.0.1/images/store/64/Category_Beds.png
+WARNING: HTTP error: Invalid http status code (404) - http://127.0.0.1/images/store/64/Category_HouseTools.png
+WARNING: HTTP error: Invalid http status code (404) - http://127.0.0.1/images/store/64/Category_HouseTools_NPCApprenticeships.png
+WARNING: HTTP error: Invalid http status code (404) - http://127.0.0.1/images/store/64/Category_Boosts.png
+WARNING: HTTP error: Invalid http status code (404) - http://127.0.0.1/images/store/64/Category_HouseDecorations.png
+WARNING: HTTP error: Invalid http status code (404) - http://127.0.0.1/images/store/64/Category_HouseFurniture.png
+WARNING: HTTP error: Invalid http status code (404) - http://127.0.0.1/images/store/64/Category_Outfits.png
+WARNING: HTTP error: Invalid http status code (404) - http://127.0.0.1/images/store/64/Category_Extras.png
+WARNING: HTTP error: Invalid http status code (404) - http://127.0.0.1/images/store/64/Category_Tournament.png
+WARNING: HTTP error: Invalid http status code (404) - http://127.0.0.1/images/store/64/Category_ExclusiveOffers.png
+WARNING: HTTP error: Invalid http status code (404) - http://127.0.0.1/images/store/64/Category_Tickets.png
+WARNING: HTTP error: Invalid http status code (404) - http://127.0.0.1/images/store/64/Category_UsefulThings.png
+WARNING: HTTP error: Invalid http status code (404) - http://127.0.0.1/images/store/64/Category_ExtraServices.png
+WARNING: HTTP error: Invalid http status code (404) - http://127.0.0.1/images/store/64/Premium_Time_30.png
+WARNING: HTTP error: Invalid http status code (404) - http://127.0.0.1/images/store/64/Premium_Time_360.png
+WARNING: HTTP error: Invalid http status code (404) - http://127.0.0.1/images/store/64/Premium_Time_90.png
+WARNING: HTTP error: Invalid http status code (404) - http://127.0.0.1/images/store/64/Premium_Time_180.png
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+Exiting application..
+GPU Intel(R) UHD Graphics (Intel)
+OpenGL 4.6.0 - Build 31.0.101.5333
+[Atlas] Texture size is: 4096x4096 (max: 16384x16384)
+Found work dir at 'C:/Users/Pedro/Documents/tiablo/client/'
+== application started at Apr 09 2026 07:58:14
+Fazendo Tibia 3.1 rev 225 (dev) made by otclient.net built on Jun  7 2022 for arch x86
+ERROR: child 'waypointScrollBar' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointScrollBar' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointScrollBar' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointScrollBar' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointScrollBar' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointScrollBar' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointScrollBar' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointScrollBar' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointScrollBar' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointScrollBar' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointScrollBar' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointScrollBar' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointScrollBar' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointScrollBar' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointScrollBar' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointScrollBar' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointScrollBar' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointScrollBar' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointScrollBar' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointScrollBar' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointScrollBar' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointScrollBar' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointScrollBar' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+Exiting application..
+GPU Intel(R) UHD Graphics (Intel)
+OpenGL 4.6.0 - Build 31.0.101.5333
+[Atlas] Texture size is: 4096x4096 (max: 16384x16384)
+Found work dir at 'C:/Users/Pedro/Documents/tiablo/client/'
+== application started at Apr 09 2026 07:59:30
+Fazendo Tibia 3.1 rev 225 (dev) made by otclient.net built on Jun  7 2022 for arch x86
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+Connecting to: 127.0.0.1:7171
+Login to 127.0.0.1:7172
+ERROR: protected lua call failed: /data/modules/game_inventory/inventory.lua:243: attempt to index local 'itemWidget' (a nil value)
+stack traceback:
+	[C]: in function '__index'
+	/data/modules/game_inventory/inventory.lua:243: in function </data/modules/game_inventory/inventory.lua:231>
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+WARNING: attempt to destroy widget 'container0' two times
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+All modules and scripts were reloaded.
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+WARNING: attempt to destroy widget 'container0' two times
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+All modules and scripts were reloaded.
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+WARNING: attempt to destroy widget 'container0' two times
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+All modules and scripts were reloaded.
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+Exiting application..
+WARNING: attempt to destroy widget 'terminalButton' two times
+GPU Intel(R) UHD Graphics (Intel)
+OpenGL 4.6.0 - Build 31.0.101.5333
+[Atlas] Texture size is: 4096x4096 (max: 16384x16384)
+Found work dir at 'C:/Users/Pedro/Documents/tiablo/client/'
+== application started at Apr 09 2026 08:03:14
+Fazendo Tibia 3.1 rev 225 (dev) made by otclient.net built on Jun  7 2022 for arch x86
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+Connecting to: 127.0.0.1:7171
+Login to 127.0.0.1:7172
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+Exiting application..
+GPU Intel(R) UHD Graphics (Intel)
+OpenGL 4.6.0 - Build 31.0.101.5333
+[Atlas] Texture size is: 4096x4096 (max: 16384x16384)
+Found work dir at 'C:/Users/Pedro/Documents/tiablo/client/'
+== application started at Apr 09 2026 08:03:38
+Fazendo Tibia 3.1 rev 225 (dev) made by otclient.net built on Jun  7 2022 for arch x86
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+Connecting to: 127.0.0.1:7171
+Login to 127.0.0.1:7172
+ERROR: protected lua call failed: /data/modules/game_inventory/inventory.lua:243: attempt to index local 'itemWidget' (a nil value)
+stack traceback:
+	[C]: in function '__index'
+	/data/modules/game_inventory/inventory.lua:243: in function </data/modules/game_inventory/inventory.lua:231>
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+WARNING: attempt to destroy widget 'container0' two times
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+All modules and scripts were reloaded.
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+Exiting application..
+WARNING: attempt to destroy widget 'terminalButton' two times
+GPU Intel(R) UHD Graphics (Intel)
+OpenGL 4.6.0 - Build 31.0.101.5333
+[Atlas] Texture size is: 4096x4096 (max: 16384x16384)
+Found work dir at 'C:/Users/Pedro/Documents/tiablo/client/'
+== application started at Apr 09 2026 08:15:19
+Fazendo Tibia 3.1 rev 225 (dev) made by otclient.net built on Jun  7 2022 for arch x86
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+Connecting to: 127.0.0.1:7171
+Login to 127.0.0.1:7172
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+Exiting application..
+GPU Intel(R) UHD Graphics (Intel)
+OpenGL 4.6.0 - Build 31.0.101.5333
+[Atlas] Texture size is: 4096x4096 (max: 16384x16384)
+Found work dir at 'C:/Users/Pedro/Documents/tiablo/client/'
+== application started at Apr 09 2026 08:16:27
+Fazendo Tibia 3.1 rev 225 (dev) made by otclient.net built on Jun  7 2022 for arch x86
+ERROR: child 'waypointScrollBar' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointScrollBar' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointScrollBar' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointScrollBar' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointScrollBar' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointScrollBar' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointScrollBar' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointScrollBar' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointScrollBar' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointScrollBar' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointScrollBar' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointScrollBar' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointScrollBar' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointScrollBar' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointScrollBar' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointScrollBar' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointScrollBar' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointScrollBar' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointScrollBar' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointScrollBar' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointScrollBar' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointScrollBar' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointScrollBar' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+Connecting to: 127.0.0.1:7171
+Login to 127.0.0.1:7172
+ERROR: child 'waypointScrollBar' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+Exiting application..
+GPU Intel(R) UHD Graphics (Intel)
+OpenGL 4.6.0 - Build 31.0.101.5333
+[Atlas] Texture size is: 4096x4096 (max: 16384x16384)
+Found work dir at 'C:/Users/Pedro/Documents/tiablo/client/'
+== application started at Apr 09 2026 08:18:33
+Fazendo Tibia 3.1 rev 225 (dev) made by otclient.net built on Jun  7 2022 for arch x86
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+Connecting to: 127.0.0.1:7171
+Login to 127.0.0.1:7172
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+Exiting application..
+GPU Intel(R) UHD Graphics (Intel)
+OpenGL 4.6.0 - Build 31.0.101.5333
+[Atlas] Texture size is: 4096x4096 (max: 16384x16384)
+Found work dir at 'C:/Users/Pedro/Documents/tiablo/client/'
+== application started at Apr 09 2026 08:20:40
+Fazendo Tibia 3.1 rev 225 (dev) made by otclient.net built on Jun  7 2022 for arch x86
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+Connecting to: 127.0.0.1:7171
+Login to 127.0.0.1:7172
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+Exiting application..
+GPU Intel(R) UHD Graphics (Intel)
+OpenGL 4.6.0 - Build 31.0.101.5333
+[Atlas] Texture size is: 4096x4096 (max: 16384x16384)
+Found work dir at 'C:/Users/Pedro/Documents/tiablo/client/'
+== application started at Apr 09 2026 08:29:06
+Fazendo Tibia 3.1 rev 225 (dev) made by otclient.net built on Jun  7 2022 for arch x86
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+Exiting application..
+GPU Intel(R) UHD Graphics (Intel)
+OpenGL 4.6.0 - Build 31.0.101.5333
+[Atlas] Texture size is: 4096x4096 (max: 16384x16384)
+Found work dir at 'C:/Users/Pedro/Documents/tiablo/client/'
+== application started at Apr 09 2026 08:31:37
+Fazendo Tibia 3.1 rev 225 (dev) made by otclient.net built on Jun  7 2022 for arch x86
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+Connecting to: 127.0.0.1:7171
+Login to 127.0.0.1:7172
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+Connecting to: 127.0.0.1:7171
+Login to 127.0.0.1:7172
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+Connecting to: 127.0.0.1:7171
+Login to 127.0.0.1:7172
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+Exiting application..
+GPU Intel(R) UHD Graphics (Intel)
+OpenGL 4.6.0 - Build 31.0.101.5333
+[Atlas] Texture size is: 4096x4096 (max: 16384x16384)
+Found work dir at 'C:/Users/Pedro/Documents/tiablo/client/'
+== application started at Apr 09 2026 08:55:00
+Fazendo Tibia 3.1 rev 225 (dev) made by otclient.net built on Jun  7 2022 for arch x86
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+Connecting to: 127.0.0.1:7171
+Login to 127.0.0.1:7172
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+Login to 127.0.0.1:7172
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+Connecting to: 127.0.0.1:7171
+Login to 127.0.0.1:7172
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+ERROR: child 'waypointList' of parent widget 'waypointsWindow' is recursively anchored to itself, please fix this
+Connecting to: 127.0.0.1:7171
+Exiting application..

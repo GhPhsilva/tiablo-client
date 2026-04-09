@@ -349,6 +349,7 @@ function EnterGame.init()
   rememberPasswordBox:setChecked(#account > 0)
     
   g_keyboard.bindKeyDown('Ctrl+G', EnterGame.openWindow)
+  connect(g_game, { onGameStart = stopLoginMusic })
 
   if g_game.isOnline() then
     return EnterGame.hide()
@@ -362,6 +363,7 @@ end
 function EnterGame.terminate()
   if not enterGame then return end
   g_keyboard.unbindKeyDown('Ctrl+G')
+  disconnect(g_game, { onGameStart = stopLoginMusic })
 
   if logpass then
     logpass:destroy()
@@ -380,6 +382,22 @@ function EnterGame.terminate()
   EnterGame = nil
 end
 
+local function startLoginMusic()
+  if not g_sounds then return end
+  local channel = g_sounds.getChannel(SoundChannels.Music)
+  if not channel then return end
+  channel:setEnabled(true)
+  channel:play('/sounds/login', 0, 1.0)
+end
+
+local function stopLoginMusic()
+  if not g_sounds then return end
+  local channel = g_sounds.getChannel(SoundChannels.Music)
+  if not channel then return end
+  channel:setEnabled(false)
+  channel:stop(0)
+end
+
 function EnterGame.show()
   if not enterGame then return end
   enterGame:show()
@@ -391,6 +409,7 @@ function EnterGame.show()
     logpass:raise()
     logpass:focus()
   end
+  startLoginMusic()
 end
 
 function EnterGame.hide()
@@ -402,6 +421,7 @@ function EnterGame.hide()
       modules.logpass:hide()
     end
   end
+  stopLoginMusic()
 end
 
 function EnterGame.openWindow()

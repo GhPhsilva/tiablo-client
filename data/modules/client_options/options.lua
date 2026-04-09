@@ -261,6 +261,13 @@ function setOption(key, value, force)
     end
     if value then
       audioButton:setIcon('/images/topbuttons/audio')
+      if not g_game.isOnline() and g_sounds then
+        local channel = g_sounds.getChannel(SoundChannels.Music)
+        if channel then
+          channel:setEnabled(true)
+          channel:play('/sounds/login', 0, 1.0)
+        end
+      end
     else
       audioButton:setIcon('/images/topbuttons/audio_mute')
     end

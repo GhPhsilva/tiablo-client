@@ -38,7 +38,7 @@ g_app.setName("Fazendo Tibia") -- Titulo do client
 
 APP_NAME = "otclientv8"
 APP_VERSION = 1341
-DEFAULT_LAYOUT = "retro"
+DEFAULT_LAYOUT = "mobile"
 
 Services = {
 
@@ -66,14 +66,7 @@ end
 g_configs.loadSettings("/config.otml")
 
 -- set layout
-local settings = g_configs.getSettings()
-local layout = DEFAULT_LAYOUT
-if g_app.isMobile() then
-  layout = "mobile"
-elseif settings:exists('layout') then
-  layout = settings:getValue('layout')
-end
-g_resources.setLayout(layout)
+g_resources.setLayout(DEFAULT_LAYOUT)
 
 -- load mods
 g_modules.discoverModules()

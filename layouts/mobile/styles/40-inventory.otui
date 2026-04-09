@@ -72,6 +72,20 @@ AmmoSlot < InventoryItem
   $on:
     image-source: /images/game/slots/ring2
 
+BeltSlot < InventoryItem
+  id: slot12
+  image-source: /images/game/slots/belt
+  &position: {x=65535, y=12, z=0}
+  $on:
+    image-source: /images/game/slots/belt
+
+GlovesSlot < InventoryItem
+  id: slot13
+  image-source: /images/game/slots/gloves
+  &position: {x=65535, y=13, z=0}
+  $on:
+    image-source: /images/game/slots/gloves
+
 PurseButton < UIButton
   id: purseButton
   size: 34 12
@@ -126,7 +140,7 @@ MountButton < CombatBox
 
 InventoryWindow < MiniWindow
   icon: /images/topbuttons/inventory
-  height: 200
+  height: 240
   id: inventoryWindow
   @onClose: modules.game_inventory.onMiniWindowClose()
   &save: true
@@ -134,13 +148,13 @@ InventoryWindow < MiniWindow
 
   MiniWindowContents
     anchors.left: parent.left
-        
+
     Panel
       id: inventoryPanel
       margin-right: 63
       margin-top: 2
       anchors.fill: parent
-      
+
       HeadSlot
         anchors.top: parent.top
         anchors.horizontalCenter: parent.horizontalCenter
@@ -151,12 +165,12 @@ InventoryWindow < MiniWindow
         anchors.horizontalCenter: prev.horizontalCenter
         margin-top: 3
 
-      LegSlot
+      BeltSlot
         anchors.top: prev.bottom
         anchors.horizontalCenter: prev.horizontalCenter
         margin-top: 3
 
-      FeetSlot
+      LegSlot
         anchors.top: prev.bottom
         anchors.horizontalCenter: prev.horizontalCenter
         margin-top: 3
@@ -176,7 +190,12 @@ InventoryWindow < MiniWindow
         anchors.top: prev.bottom
         anchors.horizontalCenter: prev.horizontalCenter
         margin-top: 3
-        
+
+      GlovesSlot
+        anchors.top: slot9.bottom
+        anchors.horizontalCenter: slot9.horizontalCenter
+        margin-top: 3
+
       BackSlot
         anchors.top: slot1.top
         anchors.left: slot1.right
@@ -193,28 +212,33 @@ InventoryWindow < MiniWindow
         anchors.horizontalCenter: prev.horizontalCenter
         margin-top: 3
 
+      FeetSlot
+        anchors.top: prev.bottom
+        anchors.horizontalCenter: prev.horizontalCenter
+        margin-top: 3
+
       SoulCapLabel
         id: soulLabel
-        anchors.top: slot10.bottom
-        anchors.horizontalCenter: slot10.horizontalCenter
-        
+        anchors.top: slot8.bottom
+        anchors.horizontalCenter: slot8.horizontalCenter
+
       SoulCapLabel
         id: capLabel
-        anchors.top: slot9.bottom
-        anchors.horizontalCenter: slot9.horizontalCenter
+        anchors.top: slot13.bottom
+        anchors.horizontalCenter: slot13.horizontalCenter
 
       PurseButton
         anchors.left: slot3.left
-        anchors.bottom: slot3.top        
+        anchors.bottom: slot3.top
         margin-bottom: 3
-  
+
       Panel
         id: conditionPanel
         layout:
           type: horizontalBox
         height: 22
         padding: 2
-        anchors.top: slot8.bottom
+        anchors.top: capLabel.bottom
         anchors.left: slot6.left
         anchors.right: slot5.right
         margin-top: 4

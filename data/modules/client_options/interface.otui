@@ -3,16 +3,14 @@ OptionPanel
     width: 130
     id: layoutLabel
     !text: tr("Layout (change requries client restart)")
-    $mobile:
-      visible: false
-  
+    visible: false
+
   ComboBox
     id: layout
     margin-top: 3
     margin-right: 2
     margin-left: 2
-    $mobile:
-      visible: false
+    visible: false
     @onOptionChange: modules.client_options.setOption(self:getId(), self:getCurrentOption().text)
     @onSetup: |
       self:addOption("Default")

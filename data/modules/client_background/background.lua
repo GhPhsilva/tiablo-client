@@ -8,11 +8,7 @@ function init()
   background:lower()
 
   clientVersionLabel = background:getChildById('clientVersionLabel')
-  clientVersionLabel:setText('OTClientV8 ' .. g_app.getVersion() .. '\nrev ' .. g_app.getBuildRevision() .. '\nFazendo Tibia')
-  
-  if not g_game.isOnline() then
-    addEvent(function() g_effects.fadeIn(clientVersionLabel, 1500) end)
-  end
+  clientVersionLabel:hide()
 
   connect(g_game, { onGameStart = hide })
   connect(g_game, { onGameEnd = show })
