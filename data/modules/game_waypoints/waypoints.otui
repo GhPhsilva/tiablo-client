@@ -53,9 +53,11 @@ MainWindow
 
   VerticalScrollBar
     id: waypointScrollBar
-    anchors.top: waypointList.top
-    anchors.bottom: waypointList.bottom
+    anchors.top: waypointsTabBar.bottom
+    anchors.bottom: descriptionPanel.top
     anchors.right: parent.right
+    margin-top: 5
+    margin-bottom: 5
     step: 54
     pixels-scroll: true
 
