@@ -2,6 +2,8 @@ skillsWindow = nil
 skillsButton = nil
 
 local ATTACK_SPEED_OPCODE = 101
+local REFLECT_DAMAGE_OPCODE = 102
+local REFLECT_CHANCE_OPCODE = 103
 
 function init()
   connect(LocalPlayer, {
@@ -27,6 +29,8 @@ function init()
     onGameEnd = offline
   })
   ProtocolGame.registerExtendedOpcode(ATTACK_SPEED_OPCODE, onAttackSpeedOpcode)
+  ProtocolGame.registerExtendedOpcode(REFLECT_DAMAGE_OPCODE, onReflectDamageOpcode)
+  ProtocolGame.registerExtendedOpcode(REFLECT_CHANCE_OPCODE, onReflectChanceOpcode)
 
   skillsButton = modules.client_topmenu.addRightGameToggleButton('skillsButton', tr('Skills'), '/images/topbuttons/skills', toggle, false, 1)
   skillsButton:setOn(true)
@@ -63,12 +67,26 @@ function terminate()
   skillsWindow:destroy()
   skillsButton:destroy()
   ProtocolGame.unregisterExtendedOpcode(ATTACK_SPEED_OPCODE)
+  ProtocolGame.unregisterExtendedOpcode(REFLECT_DAMAGE_OPCODE)
+  ProtocolGame.unregisterExtendedOpcode(REFLECT_CHANCE_OPCODE)
 end
 
 function onAttackSpeedOpcode(protocol, opcode, buffer)
   local value = tonumber(buffer)
   if not value then return end
   setSkillValue('skillId' .. Skill.AttackSpeed, string.format("%.2f%%", value / 10))
+end
+
+function onReflectDamageOpcode(protocol, opcode, buffer)
+  local value = tonumber(buffer)
+  if not value then return end
+  setSkillValue('skillId' .. Skill.ReflectDamage, string.format("%.2f%%", value / 100))
+end
+
+function onReflectChanceOpcode(protocol, opcode, buffer)
+  local value = tonumber(buffer)
+  if not value then return end
+  setSkillValue('skillId' .. Skill.ReflectChance, string.format("%.2f%%", value / 10))
 end
 
 function expForLevel(level)
@@ -223,10 +241,9 @@ function refresh()
   onSpeedChange(player, player:getSpeed())
 
   local hasAdditionalSkills = g_game.getFeature(GameAdditionalSkills)
-  for i = Skill.Fist, Skill.AttackSpeed do
-    -- Attack speed value comes via extended opcode (skill 13 is not in binary protocol).
-    -- Skipping here prevents refresh() from overwriting the display with 0.00%.
-    if i ~= Skill.AttackSpeed then
+  for i = Skill.Fist, Skill.ReflectChance do
+    -- Skills delivered via extended opcode must not be overwritten by refresh().
+    if i ~= Skill.AttackSpeed and i ~= Skill.ReflectDamage and i ~= Skill.ReflectChance then
       onSkillChange(player, i, player:getSkillLevel(i), player:getSkillLevelPercent(i))
       onBaseSkillChange(player, i, player:getSkillBaseLevel(i))
     end
@@ -236,10 +253,12 @@ function refresh()
     end
   end
 
-  -- Request current attack speed from server now that modules are initialized.
+  -- Request current attack speed and reflect skills from server now that modules are initialized.
   local protocolGame = g_game.getProtocolGame()
   if protocolGame then
     protocolGame:sendExtendedOpcode(ATTACK_SPEED_OPCODE, 'request')
+    protocolGame:sendExtendedOpcode(REFLECT_DAMAGE_OPCODE, 'request')
+    protocolGame:sendExtendedOpcode(REFLECT_CHANCE_OPCODE, 'request')
   end
 
   update()
@@ -247,7 +266,7 @@ function refresh()
   local contentsPanel = skillsWindow:getChildById('contentsPanel')
   skillsWindow:setContentMinimumHeight(44)
   if hasAdditionalSkills then
-    skillsWindow:setContentMaximumHeight(480)
+    skillsWindow:setContentMaximumHeight(508)
   else
     skillsWindow:setContentMaximumHeight(390)
   end
@@ -447,9 +466,9 @@ end
 
 function onSkillChange(localPlayer, id, level, percent)
   local displayValue = level
-  if id == Skill.CriticalChance or id == Skill.CriticalDamage or id == Skill.LifeLeechAmount or id == Skill.ManaLeechAmount then
+  if id == Skill.CriticalChance or id == Skill.CriticalDamage or id == Skill.LifeLeechAmount or id == Skill.ManaLeechAmount or id == Skill.ReflectDamage then
     displayValue = string.format("%.2f%%", level / 100)
-  elseif id == Skill.LifeLeechChance or id == Skill.ManaLeechChance or id == Skill.AttackSpeed then
+  elseif id == Skill.LifeLeechChance or id == Skill.ManaLeechChance or id == Skill.AttackSpeed or id == Skill.ReflectChance then
     displayValue = string.format("%.2f%%", level / 10)
   end
   setSkillValue('skillId' .. id, displayValue)

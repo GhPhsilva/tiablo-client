@@ -6,5 +6,9 @@
       "Bash(find c:UsersPedroDocumentstiabloclientdatamodules -name *.otmod)",
       "Bash(xargs grep:*)"
     ]
-  }
+  },
+  "enabledMcpjsonServers": [
+    "code-review-graph"
+  ],
+  "enableAllProjectMcpServers": true
 }

@@ -216,3 +216,15 @@ MiniWindow
       SkillNameLabel
         !text: tr('Bonus Attack Speed')
       SkillValueLabel
+
+    SmallSkillButton
+      id: skillId14
+      SkillNameLabel
+        !text: tr('Reflect Damage')
+      SkillValueLabel
+
+    SmallSkillButton
+      id: skillId15
+      SkillNameLabel
+        !text: tr('Reflect Chance')
+      SkillValueLabel

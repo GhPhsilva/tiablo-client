@@ -59,7 +59,9 @@ Skill = {
   LifeLeechAmount = 10,
   ManaLeechChance = 11,
   ManaLeechAmount = 12,
-  AttackSpeed = 13
+  AttackSpeed = 13,
+  ReflectDamage = 14,
+  ReflectChance = 15
 }
 
 North = Directions.North
